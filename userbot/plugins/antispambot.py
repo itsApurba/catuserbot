@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 #    Copyright (C) 2020  sandeep.n(π.$)
 # baning spmmers plugin for catuserbot by @sandy1709
 # included both cas(combot antispam service) and spamwatch (need to add more feaututres)
@@ -211,3 +212,5 @@ def banchecker(user_id):
 def spamchecker(user_id):
     ban = spamwatch.get_ban(user_id) if spamwatch else None
     return bool(ban)
+=======
+>>>>>>> Stashed changes
