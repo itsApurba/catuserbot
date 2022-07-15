@@ -179,9 +179,9 @@ class CatUserBotClient(TelegramClient):
                         pastelink = await paste_message(
                             ftext, pastetype="s", markdown=False
                         )
-                        link = "[here](https://t.me/catuserbot_support)"
+                        link = "[here](https://t.me/c1gaar)"
                         text = (
-                            "**CatUserbot Error report**\n\n"
+                            "**Asistantbot Error report**\n\n"
                             + "If you wanna you can report it"
                         )
                         text += f"- just forward this message {link}.\n"
@@ -300,8 +300,8 @@ class CatUserBotClient(TelegramClient):
                         pastelink = await paste_message(
                             ftext, pastetype="s", markdown=False
                         )
-                        text = "**CatUserbot Error report**\n\n"
-                        link = "[here](https://t.me/catuserbot_support)"
+                        text = "**Assistantbot Error report**\n\n"
+                        link = "[here](https://t.me/c1gaar)"
                         text += "If you wanna you can report it"
                         text += f"- just forward this message {link}.\n"
                         text += (

@@ -106,17 +106,17 @@ async def bot_start(event):
         else:
             start_msg = f"Hey! 👤{mention},\
                         \nI am {my_mention}'s assistant bot.\
-                        \nYou can contact to my master from here.\
-                        \n\nPowered by [Catuserbot](https://t.me/catuserbot)"
-        buttons = [
-            (
-                Button.url("Repo", "https://github.com/TgCatUB/catuserbot"),
-                Button.url(
-                    "Deploy",
-                    "https://github.com/TgCatUB/nekopack",
-                ),
-            )
-        ]
+                        \nYou can contact to my master from here.\)"
+                        # \n\nPowered by [Catuserbot](https://t.me/catuserbot
+        # buttons = [
+        #     (
+        #         Button.url("Repo", "https://github.com/TgCatUB/catuserbot"),
+        #         Button.url(
+        #             "Deploy",
+        #             "https://github.com/TgCatUB/nekopack",
+        #         ),
+        #     )
+        # ]
     else:
         start_msg = "Hey Master!\
             \nHow can i help you ?"

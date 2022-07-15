@@ -133,10 +133,10 @@ async def q_pic(event):  # sourcery no-metrics
         )
     output = io.BytesIO()
     if sticker:
-        output.name = "CatUserbot.Webp"
+        output.name = "Assistant.Webp"
         img.save(output, "webp")
     else:
-        output.name = "CatUserbot.png"
+        output.name = "Assistant.png"
         img.save(output, "PNG")
     output.seek(0)
     await event.client.send_file(event.chat_id, output, reply_to=reply_to)

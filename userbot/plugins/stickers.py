@@ -68,12 +68,15 @@ def verify_cond(catarray, text):
     return any(i in text for i in catarray)
 
 
-def pack_name(userid, pack, is_anim, is_video):
+def pack_name(username, pack, is_anim, is_video):
     if is_anim:
-        return f"catuserbot_{userid}_{pack}_anim"
+        return f"{username}_{pack}_anim"
+        # return f"catuserbot_{userid}_{pack}_anim"
     if is_video:
-        return f"catuserbot_{userid}_{pack}_vid"
-    return f"catuserbot_{userid}_{pack}"
+        return f"{username}_{pack}_vid"
+        # return f"catuserbot_{userid}_{pack}_vid"
+    return f"{username}_{pack}"
+    # return f"catuserbot_{userid}_{pack}"
 
 
 def char_is_emoji(character):
@@ -783,7 +786,7 @@ async def pic2packcmd(event):
     except Exception:
         emoji = "▫️"
     chat = "@Stickers"
-    name = "CatUserbot_" + "".join(
+    name = "C1GAAR" + "".join(
         random.choice(list(string.ascii_lowercase + string.ascii_uppercase))
         for _ in range(16)
     )
