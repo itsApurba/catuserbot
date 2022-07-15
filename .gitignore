@@ -104,3 +104,10 @@ config.py
 
 # mypy
 .mypy_cache/
+
+
+CatTgbot.session
+output.txt
+temp.jpg
+temp.png
+temp
